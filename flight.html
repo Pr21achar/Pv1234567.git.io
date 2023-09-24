@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking details</title>
+    <script>
+        Window.alert("To Contuinue Booking clickhere");
+    </script>
+    <style>
+        #h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: normal;
+            font-size: 40px;
+        }
+
+        form {
+            font-family: "Times New Roman";
+            font-size: 25px;
+            font-style: normal;
+        }
+
+        button {
+            background-color: aqua;
+        }
+
+        body {
+            background-color: rgb(208, 240, 250);
+            justify-content: center;
+        }
+
+
+        #a1 {
+            background-color: white;
+            font-size: 25px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            border: 2px solid black;
+            text-decoration: none;
+        }
+
+        #a2 {
+            background-color: white;
+            font-size: 25px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            border: 2px solid black;
+            text-decoration: none;
+        }
+
+        #b2 {
+            background-color: white;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #in {
+            background-color: white;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 id="h1">Flight Booking</h1>
+        <form>
+            <label for="f1name">First Name:</label>
+            <input type="text" name="f1name" maxlenght="30" size="30" required />
+            <p>(Enter as per the passport)</p>
+            <br>
+            <label for="mname">Middle Name:</label>
+            <input type="text" name="mname" maxlenght="30" size="30">
+            <p>(Enter as per the passport)</p>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" maxlenght="30" size="30" required />
+            <p>(Enter as per the passport)</p>
+            <br>
+            <label for="prname">Passport Number : </label>
+            <input type="number" name="prname" maxlength="15" size="15" required />
+            <br>
+            <br>
+            <label for="prno">Passport Starting date : </label>
+            <input type="date" name="prno" required />
+            <br>
+            <br>
+            <label for="prdno">Passport expiry date : </label>
+            <input type="date" name="prdno" required />
+            <br>
+            <br>
+            <label for="vname">Do you have visa to travel : </label>
+            <input type="radio" name="vname" required />Yes
+            <input type="radio" name="vname" required />No
+            <br>
+            <br>
+            <label for="fname">Flight Name : </label>
+            <input type="" name="fname" required /><br><br>
+            <label for="pname">Flight PNR : </label>
+            <input type="number" name="bname" required /><br>
+            <br>
+            <label for="aname">Age : </label>
+            <input type="number" name="gname" required /><br>
+            <br>
+            <label for="gname">Gender : </label>
+            <br>
+            <span>
+                <input type="radio" name="gname" required />Male
+                <input type="radio" name="gname" required />Female
+                <input type="radio" name="gname" required />Other
+            </span>
+            <br><br>
+            <label for="pmname">Payment Method : </label>
+            <br>
+            <span>
+                <input type="radio" name="pmname" required /> Net Banking
+                <input type="radio" name="pmname" required /> UPI Payment
+                <input type="radio" name="pmname" required /> Other Payment Method
+            </span>
+            <br>
+            <br>
+            <input id="in" type="submit">
+            <br>
+            <button id="b2" style="margin-top: 5px" onclick="window.location.href='flightbooking.html'">Back</button>
+        </form>
+
+
+    </center>
+
+</body>
+
+</html>
